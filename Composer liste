@@ -1,0 +1,99 @@
+En Laravel, l'outil de gestion de dépendances Composer est utilisé pour installer divers packages nécessaires au développement. Voici une liste de quelques commandes `composer require` courantes et les packages qu'elles installent :
+
+### Commandes de Base
+1. **laravel/ui** : Ajoute les commandes d'authentification de base (Bootstrap, Vue, React scaffolding).
+   ```bash
+   composer require laravel/ui
+   ```
+
+2. **laravel/telescope** : Ajoute Laravel Telescope, un outil de débogage.
+   ```bash
+   composer require laravel/telescope
+   ```
+
+3. **laravel/sanctum** : Ajoute Laravel Sanctum pour l'authentification API légère.
+   ```bash
+   composer require laravel/sanctum
+   ```
+
+4. **laravel/passport** : Ajoute Laravel Passport pour l'authentification API OAuth2.
+   ```bash
+   composer require laravel/passport
+   ```
+
+5. **laravel/socialite** : Ajoute Laravel Socialite pour l'authentification via des réseaux sociaux.
+   ```bash
+   composer require laravel/socialite
+   ```
+
+6. **laravel/cashier** : Ajoute Laravel Cashier pour la facturation avec Stripe.
+   ```bash
+   composer require laravel/cashier
+   ```
+
+### Commandes de Testing et de Développement
+1. **phpunit/phpunit** : Ajoute PHPUnit pour les tests unitaires.
+   ```bash
+   composer require --dev phpunit/phpunit
+   ```
+
+2. **nunomaduro/collision** : Ajoute Collision pour des erreurs CLI plus lisibles.
+   ```bash
+   composer require nunomaduro/collision --dev
+   ```
+
+3. **barryvdh/laravel-debugbar** : Ajoute Debugbar pour le débogage en développement.
+   ```bash
+   composer require barryvdh/laravel-debugbar --dev
+   ```
+
+4. **facade/ignition** : Ajoute Ignition pour des rapports d'erreurs améliorés.
+   ```bash
+   composer require facade/ignition --dev
+   ```
+
+### Commandes de Sécurité et de Validation
+1. **spatie/laravel-permission** : Ajoute des permissions et rôles basés sur les modèles.
+   ```bash
+   composer require spatie/laravel-permission
+   ```
+
+2. **barryvdh/laravel-ide-helper** : Ajoute IDE Helper pour une meilleure autocomplétion dans les IDE.
+   ```bash
+   composer require barryvdh/laravel-ide-helper --dev
+   ```
+
+### Commandes de Communication
+1. **twilio/sdk** : Ajoute le SDK Twilio pour la communication par SMS et voix.
+   ```bash
+   composer require twilio/sdk
+   ```
+
+2. **mailgun/mailgun-php** : Ajoute Mailgun pour l'envoi d'emails.
+   ```bash
+   composer require mailgun/mailgun-php
+   ```
+
+### Commandes de Gestion de Base de Données
+1. **doctrine/dbal** : Ajoute DBAL pour des modifications de schéma plus avancées.
+   ```bash
+   composer require doctrine/dbal
+   ```
+
+### Commandes Diverses
+1. **guzzlehttp/guzzle** : Ajoute Guzzle, un client HTTP pour les requêtes API.
+   ```bash
+   composer require guzzlehttp/guzzle
+   ```
+
+2. **intervention/image** : Ajoute Intervention Image pour la manipulation d'images.
+   ```bash
+   composer require intervention/image
+   ```
+
+3. **maatwebsite/excel** : Ajoute Laravel Excel pour l'importation et l'exportation de fichiers Excel.
+   ```bash
+   composer require maatwebsite/excel
+   ```
+
+Ces commandes permettent d'étendre les fonctionnalités de Laravel en fonction des besoins spécifiques du projet. Vous pouvez trouver plus de packages sur [Packagist](https://packagist.org/), le dépôt central de Composer.
